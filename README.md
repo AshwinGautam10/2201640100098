@@ -1,16 +1,19 @@
 # 2201640100098
 URL Shortener
-# AffordMed URL Shortener (Frontend)
+# AffordMed URL Shortener
 
-React app to shorten URLs, manage expiry, redirect, and view analytics. Integrates mandatory logging middleware via AffordMed Log API.
+A fast **URL shortener** built with **React + Vite**. Enter a long URL and get a short link instantly.
 
-## Run
-1. npm install
-2. Create .env from .env.example and set REACT_APP_ACCESS_TOKEN.
-3. npm start → http://localhost:3000
+---
 
-## Notes
-- Accepts up to 5 URLs per batch.
-- Default validity 30 minutes when left blank.
-- Custom shortcode must be lowercase alphanumeric and unique.
-- All significant actions go through src/lib/logger.js.
+## Tech Stack
+- React 18, Vite, Axios, React Router DOM
+
+---
+
+## Setup
+```bash
+git clone https://github.com/your-username/affordmed-url-shortener.git
+cd affordmed-url-shortener
+npm install
+npm start
